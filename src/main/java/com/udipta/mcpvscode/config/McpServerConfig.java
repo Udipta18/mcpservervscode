@@ -1,6 +1,6 @@
-package com.eazybytes.mcpserverremote.config;
+package com.udipta.mcpvscode.config;
 
-import com.eazybytes.mcpserverremote.tool.HelpDeskTools;
+import com.udipta.mcpvscode.tool.HelpDeskTools;
 import io.modelcontextprotocol.server.McpServerFeatures;
 import io.modelcontextprotocol.spec.McpSchema;
 import lombok.extern.slf4j.Slf4j;

@@ -1,9 +1,9 @@
-package com.eazybytes.mcpserverremote.tool;
+package com.udipta.mcpvscode.tool;
 
-import com.eazybytes.mcpserverremote.entity.HelpDeskTicket;
-import com.eazybytes.mcpserverremote.model.TbDetails;
-import com.eazybytes.mcpserverremote.model.TicketRequest;
-import com.eazybytes.mcpserverremote.service.HelpDeskTicketService;
+import com.udipta.mcpvscode.entity.HelpDeskTicket;
+import com.udipta.mcpvscode.model.TbDetails;
+import com.udipta.mcpvscode.model.TicketRequest;
+import com.udipta.mcpvscode.service.HelpDeskTicketService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,7 +24,7 @@ public class HelpDeskTools {
 
     @Tool(name = "createTicket", description = "Create the Support Ticket")
     String createTicket(@ToolParam(description = "Details to create a Support ticket")
-    TicketRequest ticketRequest) {
+                        TicketRequest ticketRequest) {
         LOGGER.info("Creating support ticket for user: {} with details: {}", ticketRequest);
         HelpDeskTicket savedTicket = service.createTicket(ticketRequest);
         LOGGER.info("Ticket created successfully. Ticket ID: {}, Username: {}", savedTicket.getId(), savedTicket.getUsername());

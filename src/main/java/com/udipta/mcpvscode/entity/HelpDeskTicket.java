@@ -1,4 +1,4 @@
-package com.eazybytes.mcpserverremote.entity;
+package com.udipta.mcpvscode.entity;
 
 
 import jakarta.persistence.*;

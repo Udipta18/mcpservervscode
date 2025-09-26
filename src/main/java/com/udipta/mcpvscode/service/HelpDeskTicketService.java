@@ -1,8 +1,8 @@
-package com.eazybytes.mcpserverremote.service;
+package com.udipta.mcpvscode.service;
 
-import com.eazybytes.mcpserverremote.entity.HelpDeskTicket;
-import com.eazybytes.mcpserverremote.model.TicketRequest;
-import com.eazybytes.mcpserverremote.repository.HelpDeskTicketRepository;
+import com.udipta.mcpvscode.entity.HelpDeskTicket;
+import com.udipta.mcpvscode.model.TicketRequest;
+import com.udipta.mcpvscode.repository.HelpDeskTicketRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

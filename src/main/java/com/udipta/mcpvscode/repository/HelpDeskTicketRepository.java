@@ -1,6 +1,6 @@
-package com.eazybytes.mcpserverremote.repository;
+package com.udipta.mcpvscode.repository;
 
-import com.eazybytes.mcpserverremote.entity.HelpDeskTicket;
+import com.udipta.mcpvscode.entity.HelpDeskTicket;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
